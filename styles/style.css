@@ -9,13 +9,30 @@
   background-size: cover;
 }
 
+.header {
+  display: grid;
+  grid-template-rows: 1fr auto 1fr;
+  block-size: 100vh;
+  position: relative;
+  padding: 20px;
+  margin-left: -20px;
+}
+
 .header__title {
   color: var(--header-color);
   text-shadow: 4px 4px 0px var(--header-shadow);
-  font-family: IBM Plex Mono;
-  font-size: 157px;
-  font-style: normal;
+  font-size: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
   font-weight: 700;
   line-height: 82.5%;
-  /* 129.525px */
+}
+
+.header__epigraph {
+  display: inline;
+  color: var(--text-color);
+  font-weight: 700;
+  line-height: 130%;
+  background-color: var(--accent-color);
+  justify-self: end;
+  align-self: center;
+  max-width: 491px;
 }
