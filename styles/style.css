@@ -3,10 +3,7 @@
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   font-family: var(--main-font);
-  background-image: var(--bg-image);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: var(--bg-color, #FFF1F7);
 }
 
 .header {
@@ -15,6 +12,11 @@
   block-size: 100vh;
   position: relative;
   padding: 20px;
+  background-image: var(--bg-image);
+  background-position: center;
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .header__theme-menu {
@@ -73,10 +75,13 @@
   color: var(--text-color);
   font-weight: 700;
   line-height: 130%;
-  background-color: var(--accent-color);
   justify-self: end;
   align-self: center;
   max-width: 491px;
+}
+
+.accent-color {
+  background-color: var(--accent-color);
 }
 
 .decorated-zone::before {
@@ -99,4 +104,71 @@
   height: 25px;
   position: absolute;
   content: '';
+}
+
+.main {
+  display: grid;
+  gap: 80px;
+  padding: 60px 20px;
+}
+
+.main__section-why {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 2fr;
+}
+
+.section__title {
+  color: var(--text-color, #353430);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.section__list {
+  display: grid;
+  gap: 20px;
+}
+
+.section__card {
+  display: grid;
+  gap: 10px;
+  align-self: start;
+}
+
+.section__card-title {
+  color: var(--text-color, #353430);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.section__card-text {
+  color: var(--text-color, #353430);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.main__section-what {
+  display: grid;
+  gap: 20px;
+}
+
+.three-columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.main__section-how {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 2fr;
+}
+
+.not-bold {
+  font-weight: 400;
 }
