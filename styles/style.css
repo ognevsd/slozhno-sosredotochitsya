@@ -15,7 +15,6 @@
   block-size: 100vh;
   position: relative;
   padding: 20px;
-  margin-left: -20px;
 }
 
 .header__theme-menu {
@@ -66,6 +65,7 @@
   font-size: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
   font-weight: 700;
   line-height: 82.5%;
+  margin-left: -20px;
 }
 
 .header__epigraph {
