@@ -14,7 +14,6 @@
   padding: 20px;
   background-image: var(--bg-image);
   background-position: center;
-  /* background-attachment: fixed; */
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -210,9 +209,44 @@
 .footer__title {
   color: var(--header-color,#FFC2E6);
   text-shadow: 2px 2px 0px var(--header-shadow, #FF0070);
-  /* font-family: IBM Plex Mono; */
   font-size: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
   font-style: normal;
   font-weight: 700;
   line-height: 82.5%;
+}
+
+@media (width < 1024px){
+  .header__title {
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
+
+  .header__epigraph {
+    max-width: 364px;
+  }
+
+  .header__theme-menu {
+    align-self: center;
+    justify-self: end;
+  }
+
+  .header__theme-menu-list {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .three-columns {
+    grid-template-columns: 1fr;
+  }
+
+  .main__section-what > .section__title {
+    max-width: 236px;
+  }
+
+  .footer__title{
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
+}
+
+@media (width < 768px) {
+
 }
