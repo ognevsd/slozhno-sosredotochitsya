@@ -198,3 +198,21 @@
 .gallery__image-long {
   grid-column: span 2;
 }
+
+.footer {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  block-size: 100vh;
+}
+
+.footer__title {
+  color: var(--header-color,#FFC2E6);
+  text-shadow: 2px 2px 0px var(--header-shadow, #FF0070);
+  /* font-family: IBM Plex Mono; */
+  font-size: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 82.5%;
+}
