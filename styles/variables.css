@@ -11,4 +11,6 @@
   --header-color: #FFC2E6;
   --header-shadow: #FF0070;
   --header-shadow-small-screens: #FF8DCB;
+  --menu-color: #353430;
+  --menu-hover: rgba(50, 49, 45, 0.40);
 }

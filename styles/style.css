@@ -40,6 +40,7 @@
   text-align: center;
   cursor: pointer;
   border: 1px solid transparent;
+  color: var(--menu-color);
 }
 
 .header__theme-menu-button:focus {
@@ -47,16 +48,16 @@
 }
 
 .header__theme-menu-button:focus-visible {
-  border-bottom: 1px solid var(--text-color);
+  border-bottom: 1px solid var(--menu-color);
 }
 
 
 .header__theme-menu-button:hover {
-  border: 1px solid rgba(50, 49, 45, 0.40);
+  border: 1px solid var(--menu-hover);
 }
 
 .header__theme-menu-button_active {
-  border: 1px solid var(--text-color);
+  border: 1px solid var(--menu-color);
   pointer-events: none;
 }
 
