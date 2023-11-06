@@ -31,4 +31,16 @@
     --menu-hover: rgba(50, 49, 45, 0.40);
     --link-shadow: #FF0070;
   }
+
+  .page.theme_light .rec-sign {
+    display: none;
+  }
+
+  .page.theme_auto .rec-sign {
+    display: none;
+  }
+}
+
+.page.theme_light .rec-sign {
+  display: none;
 }
