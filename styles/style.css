@@ -61,8 +61,8 @@
 }
 
 .header__title {
-  color: var(--header-color);
-  text-shadow: 4px 4px 0px var(--header-shadow);
+  color: var(--header-color, #FFC2E6);
+  text-shadow: 4px 4px 0px var(--header-shadow, #FF0070);
   font-size: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
   font-weight: 700;
   line-height: 82.5%;
@@ -218,6 +218,7 @@
 @media (width < 1024px) {
   .header__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    text-shadow: 4px 4px 0px var(--header-shadow-small-screens, #FF8DCB);
   }
 
   .header__epigraph {
