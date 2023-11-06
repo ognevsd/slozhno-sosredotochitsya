@@ -153,6 +153,23 @@
   line-height: 130%;
 }
 
+.section__card-link {
+  text-decoration: none;
+  text-shadow: 2px 1px 0 var(--link-shadow);
+}
+
+.section__card-link:focus {
+  outline: none;
+}
+
+.section__card-link:focus-visible {
+  outline: 1px solid var(--text-color);
+}
+
+.section__card-link:hover {
+  border-bottom: 1px solid var(--text-color);
+}
+
 .main__section-what {
   display: grid;
   gap: 20px;
