@@ -5,6 +5,7 @@
   font-family: var(--main-font);
   background-color: var(--bg-color, #FFF1F7);
   background-attachment: fixed;
+  min-height: 768px;
 }
 
 .header {
@@ -144,6 +145,10 @@
   grid-template-columns: 1fr 2fr;
 }
 
+.main__section-why .section__list {
+  margin-left: -6px;
+}
+
 .section__title {
   color: var(--text-color, #353430);
   font-size: 18px;
@@ -210,6 +215,10 @@
   display: grid;
   gap: 20px;
   grid-template-columns: 1fr 2fr;
+}
+
+.main__section-how .section__list {
+  margin-left: -6px;
 }
 
 .not-bold {
@@ -290,10 +299,23 @@
   .footer__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
+
+  .main__section-how .section__list {
+    margin-left: 0px;
+  }
+
+  .main__section-why .section__list {
+    margin-left: 0px;
+  }
 }
 
 @media (width < 768px) {
+  .page {
+    min-height: 668px;
+  }
+
   .header {
+    height: 100vh;
     padding: 10px;
   }
 
@@ -348,6 +370,11 @@
 
   .footer__title {
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  }
+
+  .rec-sign {
+    top: 10px;
+    right: 19px;
   }
 
 }
