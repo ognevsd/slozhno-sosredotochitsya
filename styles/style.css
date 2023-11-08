@@ -4,7 +4,6 @@
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   font-family: var(--main-font);
   background-color: var(--bg-color, #FFF1F7);
-  background-attachment: fixed;
   background-image: var(--bg-image);
   background-position: center;
   background-repeat: no-repeat;
