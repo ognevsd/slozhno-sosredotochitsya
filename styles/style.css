@@ -5,7 +5,6 @@
   font-family: var(--main-font);
   background-color: var(--bg-color, #FFF1F7);
   background-attachment: fixed;
-  min-height: 768px;
 }
 
 .header {
@@ -18,6 +17,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 668px;
 }
 
 .header__theme-menu {
@@ -257,6 +257,7 @@
   justify-content: center;
   position: relative;
   block-size: 100vh;
+  min-height: 668px;
 }
 
 .footer__title {
@@ -310,10 +311,6 @@
 }
 
 @media (width < 768px) {
-  .page {
-    min-height: 668px;
-  }
-
   .header {
     height: 100vh;
     padding: 10px;
