@@ -217,8 +217,12 @@
   grid-template-columns: 1fr 2fr;
 }
 
-.main__section-how .section__list {
+.main__section-how-content {
   margin-left: -6px;
+}
+
+.main__section-how .title-separate {
+  margin-bottom: 20px;
 }
 
 .not-bold {
@@ -303,7 +307,7 @@
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
-  .main__section-how .section__list {
+  .main__section-how-content {
     margin-left: 0px;
   }
 
