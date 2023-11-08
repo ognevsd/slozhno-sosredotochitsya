@@ -20,7 +20,7 @@
 
 <body class="page">
   <header class="header decorated-zone">
-    <span class="rec-sign">rec</span>
+    <span class="rec-sign" aria-hidden="true">rec</span>
     <nav class="header__theme-menu">
       <ul class="header__theme-menu-list">
         <li class="header__theme-menu-item">
@@ -43,7 +43,7 @@
     </nav>
     <h1 class="header__title">no focus</h1>
     <p class="header__epigraph accent-color">
-      Что делать, когда не можешь делать ничего<br />
+      Что делать, когда не&nbsp;можешь делать ничего<br />
       Или почему нам так сложно сконцентрироваться, особенно когда очень надо
     </p>
   </header>
@@ -56,7 +56,7 @@
           <p class="section__card-text">
             Особенно сложно сосредоточиться, когда задач много и все они — важные. Где же легендарная многозадачность,
             когда она так нужна вам (и всем нанимающим менеджерам этого мира)? А дело в том, что её просто не
-            существует. Исследователи <a href="https://dana.org/article/multicosts-of-multitasking/"
+            существует. Исследователи <a href="https://dana.org/article/multicosts-of-multitasking/" target="_blank"
               class="section__card-link">выяснили</a>, что
             мозгу тяжело концентрироваться даже на двух делах одновременно. А
             когда в поле внимания попадает несколько важных задач, организм паникует и выделяет кортизол и адреналин —
@@ -111,9 +111,7 @@
     <section class="main__section-how">
       <h2 class="section__title">Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх секунд)</h2>
       <ul class="section__list">
-        <li class="section__card">
-          <h3 class="section__card-title accent-color">5 простых (на самом деле не очень) советов</h3>
-        </li>
+        <h3 class="section__card-title accent-color">5 простых (на самом деле не очень) советов</h3>
         <li class="section__card">
           <h4 class="section__card-title accent-color not-bold">Представьте небо и облака</h4>
           <p class="section__card-text">
@@ -135,7 +133,7 @@
         <li class="section__card">
           <h4 class="section__card-title accent-color not-bold">Прогуляйтесь</h4>
           <p class="section__card-text">
-            Или даже пробегитесь. Лучше найти парк или лес: один эксперимент <a
+            Или даже пробегитесь. Лучше найти парк или лес: один эксперимент <a target="_blank"
               href="https://www.sciencedirect.com/science/article/abs/pii/S0272494415000328"
               class="section__card-link">показал</a>, что созерцание
             природы повышает
@@ -165,11 +163,11 @@
     <section class="main__section-gallery">
       <h2 class="section__title accent-color">А можно в картинках?</h2>
       <div class="gallery">
-        <img class="gallery__image gallery__image-long" src="./images/sunset.png" alt="Закат">
-        <img class="gallery__image gallery__image-tall" src="./images/ice-cream.png" alt="Мороженное">
-        <img class="gallery__image gallery__image-tall" src="./images/tape.png" alt="Кассета">
-        <img class="gallery__image" src="./images/books.png" alt="Книги">
-        <img class="gallery__image gallery__image-long" src="./images/street.png" alt="Улица">
+        <img class="gallery__image gallery__image-long" src="./images/sunset.png" loading="lazy" alt="Закат">
+        <img class="gallery__image gallery__image-tall" src="./images/ice-cream.png" loading="lazy" alt="Мороженное">
+        <img class="gallery__image gallery__image-tall" src="./images/tape.png" loading="lazy" alt="Кассета">
+        <img class="gallery__image" src="./images/books.png" loading="lazy" alt="Книги">
+        <img class="gallery__image gallery__image-long" src="./images/street.png" loading="lazy" alt="Улица">
       </div>
     </section>
   </main>
