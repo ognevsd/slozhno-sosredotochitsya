@@ -81,11 +81,6 @@
   max-width: 491px;
 }
 
-.accent-color {
-  color: var(--text-accent-color);
-  background-color: var(--accent-color);
-}
-
 .rec-sign {
   position: absolute;
   text-transform: uppercase;
