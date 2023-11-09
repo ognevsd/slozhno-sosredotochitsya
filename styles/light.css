@@ -8,6 +8,8 @@
   --main-font: 'IBM Plex Mono', monospace;
   --bg-color: #FFF1F7;
   --bg-image: url(../images/cover-image-light.png);
+  --section-title-color: #353430;
+  --text-accent-color: #353430;
   --text-color: #353430;
   --accent-color: #FF8DCB;
   --header-color: #FFC2E6;
@@ -23,6 +25,8 @@
     --main-font: 'IBM Plex Mono', monospace;
     --bg-color: #FFF1F7;
     --bg-image: url(../images/cover-image-light.png);
+    --section-title-color: #353430;
+    --text-accent-color: #353430;
     --text-color: #353430;
     --accent-color: #FF8DCB;
     --header-color: #FFC2E6;

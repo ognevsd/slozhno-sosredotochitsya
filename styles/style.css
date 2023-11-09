@@ -82,6 +82,7 @@
 }
 
 .accent-color {
+  color: var(--text-accent-color);
   background-color: var(--accent-color);
 }
 
@@ -150,7 +151,7 @@
 }
 
 .section__title {
-  color: var(--text-color, #353430);
+  color: var(--section-title-color, #353430);
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -169,7 +170,6 @@
 }
 
 .section__card-title {
-  color: var(--text-color, #353430);
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -273,6 +273,11 @@
   font-style: normal;
   font-weight: 700;
   line-height: 82.5%;
+}
+
+.accent-color {
+  color: var(--text-accent-color);
+  background-color: var(--accent-color);
 }
 
 @media (width < 1024px) {

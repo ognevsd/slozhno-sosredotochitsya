@@ -7,6 +7,8 @@
 .page.theme_dark {
   --bg-color: #00183F;
   --bg-image: url(../images/cover-image-dark.png);
+  --section-title-color: #FF0070;
+  --text-accent-color: #000028;
   --text-color: #F1B2CE;
   --accent-color: #FF0070;
   --header-color: #DB00FF;
@@ -20,6 +22,8 @@
   :root {
     --bg-color: #00183F;
     --bg-image: url(../images/cover-image-dark.png);
+    --section-title-color: #FF0070;
+    --text-accent-color: #000028;
     --text-color: #F1B2CE;
     --accent-color: #FF0070;
     --header-color: #DB00FF;
