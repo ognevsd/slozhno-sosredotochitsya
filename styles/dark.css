@@ -16,6 +16,7 @@
   --header-shadow-small-screens: #FF0070;
   --menu-color: #FF0070;
   --menu-hover: rgba(255, 0, 112, 0.40);
+  --link-shadow: #FF0070;
 }
 
 @media (prefers-color-scheme: dark) {

@@ -181,7 +181,7 @@
 
 .section__card-link {
   text-decoration: none;
-  text-shadow: 2px 1px 0 var(--link-shadow);
+  text-shadow: 2px 2px 0 var(--link-shadow);
 }
 
 .section__card-link:focus {
